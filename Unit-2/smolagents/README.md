@@ -13,6 +13,7 @@
 | [05 — Tools](05_Tools.ipynb) | Creación de herramientas, exportación e integración con el Hub y Spaces. |
 | [06 — Retrieval Agents](06_Retrieval_Agents.ipynb) | Búsqueda y recuperación de contexto. |
 | [07 — Multi-Agent Systems](07_Multi_Agent_Systems.ipynb) | Delegación, datos con fuentes y visualización de ubicaciones. |
+| [08 — Vision Agents](08_Vision_Agents.ipynb) | Inferencia visual con imágenes y continuación con Gemini. |
 
 ## Configuración
 
@@ -33,4 +34,4 @@ La generación de imágenes del Hub y la publicación de herramientas son opcion
 - Coordinación entre un agente investigador y un agente gestor.
 - Integración de imágenes y capturas mediante interfaces multimodales.
 
-Las visualizaciones disponibles se conservan como ejemplos del recorrido. Los componentes interactivos se consultan en Colab o Jupyter.
+Las respuestas guardadas de Gemini y las visualizaciones disponibles se conservan como ejemplos del recorrido. Los componentes interactivos se consultan en Colab o Jupyter.
