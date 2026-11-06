@@ -11,6 +11,7 @@
 | [03 — Code Agents](03_Code_Agents.ipynb) | Acciones expresadas en Python y herramientas personalizadas. |
 | [04 — Tool Calling Agents](04_Tool_Calling_Agents.ipynb) | Llamadas estructuradas a herramientas. |
 | [05 — Tools](05_Tools.ipynb) | Creación de herramientas, exportación e integración con el Hub y Spaces. |
+| [06 — Retrieval Agents](06_Retrieval_Agents.ipynb) | Búsqueda y recuperación de contexto. |
 
 ## Configuración
 
