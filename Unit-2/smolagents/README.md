@@ -14,6 +14,7 @@
 | [06 — Retrieval Agents](06_Retrieval_Agents.ipynb) | Búsqueda y recuperación de contexto. |
 | [07 — Multi-Agent Systems](07_Multi_Agent_Systems.ipynb) | Delegación, datos con fuentes y visualización de ubicaciones. |
 | [08 — Vision Agents](08_Vision_Agents.ipynb) | Inferencia visual con imágenes y continuación con Gemini. |
+| [09 — Vision Web Browser](09_Vision_Web_Browser.ipynb) | Herramientas de navegador, capturas y análisis visual. |
 
 ## Configuración
 
