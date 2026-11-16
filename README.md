@@ -23,9 +23,9 @@ Universidad Externado de Colombia · Ciencia de Datos
 
 ## Presentación
 
-Este repositorio reúne mi trabajo práctico en el [curso oficial de agentes de IA de Hugging Face](https://huggingface.co/learn/agents-course/en/unit0/introduction). A través de 16 notebooks exploro cómo un modelo de lenguaje puede interactuar con herramientas, recuperar información, coordinar tareas y trabajar con imágenes o interfaces web.
+Este repositorio reúne mi trabajo práctico en el [curso oficial de agentes de IA de Hugging Face](https://huggingface.co/learn/agents-course/en/unit0/introduction). A través de 17 notebooks exploro cómo un modelo de lenguaje puede interactuar con herramientas, recuperar información, coordinar tareas y trabajar con imágenes o interfaces web.
 
-El recorrido conecta los fundamentos de los agentes con implementaciones en **smolagents, LlamaIndex y LangGraph**, y culmina en un ejercicio de **Agentic RAG**. Los notebooks reúnen implementaciones, salidas y observaciones para estudiar el comportamiento de cada enfoque.
+El recorrido conecta los fundamentos de los agentes con implementaciones en **smolagents, LlamaIndex y LangGraph**, y abarca un ejercicio de **Agentic RAG** y el proyecto final de evaluación **GAIA**. Los notebooks reúnen implementaciones, salidas y observaciones para estudiar el comportamiento de cada enfoque.
 
 ### Objetivos de aprendizaje
 
@@ -46,8 +46,9 @@ HuggingFace-AI-Agents-Course/
 │   │   └── README.md        # Cronograma y limitaciones de estos ejercicios
 │   ├── llamaindex/          # Unidad 2.2 · 10–13
 │   └── langgraph/           # Unidad 2.3 · 14–15
-└── Unit-3/
-    └── agentic-rag/         # Agentic RAG · 16
+├── Unit-3/
+│   └── agentic-rag/         # Agentic RAG · 16
+└── Unit-4/                  # Proyecto final GAIA · 17
 ```
 
 ## Guía de notebooks
@@ -93,6 +94,18 @@ HuggingFace-AI-Agents-Course/
 | --- | --- |
 | [16 · Agentic RAG](Unit-3/agentic-rag/16_Agentic_RAG.ipynb) | Integrar recuperación, búsqueda y herramientas en el ejercicio de la gala de Alfred. |
 
+### Unidad 4 · Proyecto final GAIA
+
+| Notebook | Objetivo |
+| --- | --- |
+| [17 · GAIA Final Agent](Unit-4/17_GAIA_Final_Agent.ipynb) | Documentar el agente final, las respuestas generadas y la evaluación oficial de GAIA. |
+
+Se realizaron pruebas con **Groq y Gemini**. El notebook conserva los resultados Gemini y los campos de puntuación de la respuesta de evaluación oficial: **15 %**, equivalente a **3 respuestas correctas de 20**, con ocho tareas válidas intentadas en el envío registrado. 
+
+**Agente publicado:** [angiedonatto/GAIA-Final-Agent](https://huggingface.co/spaces/angiedonatto/GAIA-Final-Agent).
+
+El notebook incluye las respuestas generadas, checkpoints y el resultado del envío registrado para su consulta y análisis.
+
 ## Tecnologías y entorno de trabajo
 
 | Tecnología | Uso en el recorrido |
@@ -127,7 +140,7 @@ El [README de smolagents](Unit-2/smolagents/README.md) incluye una guía de conf
 
 **Certificación obtenida: Fundamentals of Agents.**
 
-Esta certificación corresponde a los fundamentos de agentes. La evaluación final del curso continúa en proceso; sigo revisando los errores y trabajando para obtenerla.
+Esta certificación corresponde a los fundamentos de agentes. En el proyecto final GAIA se registró una puntuación oficial del **15 %**; continúo profundizando en la evaluación y mejora de los agentes. La certificación obtenida que se documenta aquí es **Fundamentals of Agents**.
 
 ---
 
